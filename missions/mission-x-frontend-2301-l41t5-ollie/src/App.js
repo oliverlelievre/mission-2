@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import ProgressTracker from "./components/Ollie/ProgressTracker/ProgressTracker";
+import StudentProfiles from "./components/Ollie/StudentProfiles/StudentProfiles";
+import "./App.css";
 
 function App() {
   return (
