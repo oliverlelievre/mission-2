@@ -1,25 +1,16 @@
-import { Routes, Route } from "react-router-dom";
-import ProgressTracker from "./components/Ollie/ProgressTracker/ProgressTracker";
-import StudentProfiles from "./components/Ollie/StudentProfiles/StudentProfiles";
+// import { Routes, Route } from "react-router-dom";
+import ProgressTracker from "./components/ProgressTracker/ProgressTracker";
+import StudentProfiles from "./components/StudentProfiles/StudentProfiles";
 import "./App.css";
+// import IMAGES from "./students/index.";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Component 1<br></br>
+      <StudentProfiles></StudentProfiles>><br></br>
+      Component 2<br></br>
+      <ProgressTracker></ProgressTracker>
     </div>
   );
 }
