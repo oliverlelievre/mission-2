@@ -6,13 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      Component 1<br></br>
-      <StudentProfiles></StudentProfiles>><br></br>
-      Component 2<br></br>
-      <ProgressTracker></ProgressTracker>
-    </div>
-  );
+
 }
 
 export default App;

@@ -15,10 +15,12 @@ import ShaneOMonahan from "./students/ShaneOMonahan.png";
 import SimonLaine from "./students/SimonLaine.png";
 import TokioHan from "./students/TokioHan.png";
 
+import styles from "./StudentProfiles.module.css";
+
 export default function StudentProfiles() {
   return (
-    <div className="cards">
-      <div className="card">
+    <div className={styles.cards}>
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={AidenAndrews} alt="" />
@@ -27,7 +29,7 @@ export default function StudentProfiles() {
         <h3>Aiden Andrews</h3>
       </div>
 
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={AliceKindellan} alt="" />
@@ -36,7 +38,7 @@ export default function StudentProfiles() {
         <h3>Alice Kindellan</h3>
       </div>
 
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={CourtneyBristol} alt="" />
@@ -45,7 +47,7 @@ export default function StudentProfiles() {
         <h3>Courtney Bristol</h3>
       </div>
 
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={HanuNepe} alt="" />
@@ -53,14 +55,14 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Hanu Nepe</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image"></div>
         <img src={HarryMcGrath} alt="" />
         <br></br>
         <h3>Harry McGrath</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={JavierFuego} alt="" />
@@ -68,7 +70,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Javier Fuego</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={LisaHoran} alt="" />
@@ -76,7 +78,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Lisa Horan</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={LuciaMendez} alt="" />
@@ -84,7 +86,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Lucia Mendez</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={MarkOLeary} alt="" />
@@ -92,7 +94,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Mark OLeary</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={NaganiCortes} alt="" />
@@ -100,7 +102,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Nagani Cortes</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={NeveahMachenry} alt="" />
@@ -108,7 +110,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Neveah Machenry</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={RawiriFletcher} alt="" />
@@ -116,7 +118,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Rawiri Fletcher</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={ShaneOMonahan} alt="" />
@@ -124,7 +126,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Shane OMonahan</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={SimonLaine} alt="" />
@@ -132,7 +134,7 @@ export default function StudentProfiles() {
         <br></br>
         <h3>Simon Laine</h3>
       </div>
-      <div className="card">
+      <div className={styles.card}>
         <br></br>
         <div className="card_image">
           <img src={TokioHan} alt="" />
